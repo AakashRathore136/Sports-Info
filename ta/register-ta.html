@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>பதிவு - SportsInfo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <div class="page-wrapper">
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index.html" class="lang-selector">
+                    <span class="lang-icon">🌐</span>
+                    <span class="lang-text">மொழியை மாற்று</span>
+                </a>
+            </div>
+            <div class="nav-right">
+                <a href="about-ta.html" class="nav-link">எங்களைப் பற்றி</a>
+            </div>
+        </nav>
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container">
+                <h1 class="section-title">பாடநெறி பதிவு</h1>
+                <p class="section-subtitle">ஆயிரக்கணக்கான விளையாட்டு ஆர்வலர்களுடன் சேர்ந்து இன்றே உங்கள் கற்றல் பயணத்தைத் தொடங்கவும்</p>
+                <div class="form-container" style="max-width: 700px;">
+                    <form action="sports-selection-ta.html">
+                        <h3 style="color: var(--accent-gold); margin-bottom: 1.5rem;">ব्যক्তিগত जानकारी</h3>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                            <div class="form-group">
+                                <label class="form-label" for="firstName">முதல் பெயர்</label>
+                                <input type="text" id="firstName" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="lastName">கடைசி பெயர்</label>
+                                <input type="text" id="lastName" class="form-input" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="regEmail">மின்னஞ்சல் முகவரி</label>
+                            <input type="email" id="regEmail" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="phone">தொலைபேசி எண்</label>
+                            <input type="tel" id="phone" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="regPassword">கடவுச்சொல் உருவாக்குங்கள்</label>
+                            <input type="password" id="regPassword" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-checkbox">
+                                <input type="checkbox" required>
+                                <span>நான் சேவை விதிகளிலும் தனியுரிமை கொள்கையிலும் ஒப்புக்கொள்கிறேன்</span>
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">கணக்கு உருவாக்கி பதிவு செய்யவும்</button>
+                        <p style="text-align: center; margin-top: 1.5rem; color: rgba(255,255,255,0.6);">
+                            ஏற்கனவே கணக்கு உண்டா? 
+                            <a href="login-ta.html" style="color: var(--accent-gold); text-decoration: none;">உள்நுழையவும்</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-bottom">
+                <p>&copy; 2024 SportsInfo. அனைத்து உரிமைகளும் reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <a href="feedback-ta.html" class="feedback-btn" title="கருத்து தெரிவிக்கவும்">💬</a>
+    <script src="main.js"></script>
+</body>
+</html>
