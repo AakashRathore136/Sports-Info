@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>पंजीकरण - SportsInfo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <div class="page-wrapper">
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index.html" class="lang-selector">
+                    <span class="lang-icon">🌐</span>
+                    <span class="lang-text">भाषा बदलें</span>
+                </a>
+            </div>
+            <div class="nav-right">
+                <a href="about-hi.html" class="nav-link">हमारे बारे में</a>
+            </div>
+        </nav>
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container">
+                <h1 class="section-title">पाठ्यक्रम पंजीकरण</h1>
+                <p class="section-subtitle">हजारों खेल प्रेमियों में शामिल हों और आज ही अपनी सीखने की यात्रा शुरू करें</p>
+                <div class="form-container" style="max-width: 700px;">
+                    <form action="sports-selection-hi.html">
+                        <h3 style="color: var(--accent-gold); margin-bottom: 1.5rem;">व्यक्तिगत जानकारी</h3>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                            <div class="form-group">
+                                <label class="form-label" for="firstName">पहला नाम</label>
+                                <input type="text" id="firstName" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="lastName">अंतिम नाम</label>
+                                <input type="text" id="lastName" class="form-input" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="regEmail">ईमेल पता</label>
+                            <input type="email" id="regEmail" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="phone">फोन नंबर</label>
+                            <input type="tel" id="phone" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="regPassword">पासवर्ड बनाएं</label>
+                            <input type="password" id="regPassword" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-checkbox">
+                                <input type="checkbox" required>
+                                <span>मैं सेवा की शर्तों और गोपनीयता नीति से सहमत हूं</span>
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">खाता बनाएं और नामांकन करें</button>
+                        <p style="text-align: center; margin-top: 1.5rem; color: rgba(255,255,255,0.6);">
+                            पहले से खाता है? 
+                            <a href="login-hi.html" style="color: var(--accent-gold); text-decoration: none;">साइन इन करें</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-bottom">
+                <p>&copy; 2024 SportsInfo. सर्वाधिकार सुरक्षित।</p>
+            </div>
+        </footer>
+    </div>
+    <a href="feedback-hi.html" class="feedback-btn" title="फीडबैक दें">💬</a>
+    <script src="main.js"></script>
+</body>
+</html>
