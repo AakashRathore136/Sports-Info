@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback & Contact Us - SportsInfo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <div class="page-wrapper">
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index.html" class="lang-selector">
+                    <span class="lang-icon">🌐</span>
+                    <span class="lang-text">Change Language</span>
+                </a>
+            </div>
+            <div class="nav-right">
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="sports-selection.html" class="nav-link">Sports</a>
+            </div>
+        </nav>
+
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container">
+                <h1 class="section-title">Feedback & Contact Us</h1>
+                <p class="section-subtitle">We'd love to hear from you! Share your thoughts or get in touch with our team</p>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3 style="color: var(--accent-gold); margin-bottom: 1.5rem; font-size: 1.5rem;">Get In Touch</h3>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div class="contact-details">
+                                <h4>Email Us</h4>
+                                <p>info@sportsinfo.com<br>support@sportsinfo.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div class="contact-details">
+                                <h4>Call Us</h4>
+                                <p>+1 234 567 8900<br>+1 234 567 8901</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-container" style="max-width: 100%; padding: 2rem;">
+                        <h3 style="color: var(--accent-gold); margin-bottom: 1.5rem; font-size: 1.5rem; text-align: left;">Send Us Your Feedback</h3>
+                        
+                        <form>
+                            <div class="form-group">
+                                <label class="form-label" for="name">Your Name</label>
+                                <input type="text" id="name" class="form-input" placeholder="Enter your name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="email">Email Address</label>
+                                <input type="email" id="email" class="form-input" placeholder="Enter your email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="subject">Subject</label>
+                                <select id="subject" class="form-input" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="course">Course Related</option>
+                                    <option value="technical">Technical Support</option>
+                                    <option value="feedback">Feedback & Suggestions</option>
+                                    <option value="complaint">Complaint</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="rating">Rate Your Experience</label>
+                                <select id="rating" class="form-input">
+                                    <option value="">Select rating</option>
+                                    <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+                                    <option value="4">⭐⭐⭐⭐ Very Good</option>
+                                    <option value="3">⭐⭐⭐ Good</option>
+                                    <option value="2">⭐⭐ Fair</option>
+                                    <option value="1">⭐ Poor</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="message">Your Message</label>
+                                <textarea id="message" class="form-input" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-checkbox">
+                                    <input type="checkbox">
+                                    <span>Subscribe to our newsletter for updates</span>
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="background: rgba(255,255,255,0.02);">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Find answers to common questions</p>
+                
+                <div class="info-grid" style="max-width: 1000px; margin: 0 auto;">
+                    <div class="info-card">
+                        <h3 class="info-card-title">How do I enroll in a course?</h3>
+                        <p class="info-card-text">
+                            Simply click on the Register button, create an account, select your preferred courses, 
+                            and complete the registration process.
+                        </p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3 class="info-card-title">Are the courses free?</h3>
+                        <p class="info-card-text">
+                            We offer both free and premium courses. Basic content is available for free, 
+                            while advanced modules require a subscription.
+                        </p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3 class="info-card-title">Can I learn in my language?</h3>
+                        <p class="info-card-text">
+                            Yes! We support multiple languages including English, Hindi, Tamil, Telugu, Spanish, French, German, and more.
+                        </p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3 class="info-card-title">Do I get a certificate?</h3>
+                        <p class="info-card-text">
+                            Yes, upon completing all modules and passing the assessment, you'll receive 
+                            a digital certificate of completion.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>SportsInfo</h4>
+                    <p>Your trusted partner in sports education.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="sports-selection.html">Sports</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Sports</h4>
+                    <a href="cricket.html">Cricket</a>
+                    <a href="football.html">Football</a>
+                    <a href="golf.html">Golf</a>
+                    <a href="basket.html">Basketball</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>info@sportsinfo.com</p>
+                    <p>+1 234 567 8900</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SportsInfo. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    
+    <a href="feedback.html" class="feedback-btn" title="Give Feedback">💬</a>
+    <script src="main.js"></script>
+</body>
+</html>
